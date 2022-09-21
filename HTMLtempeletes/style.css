@@ -1,0 +1,116 @@
+@font-face {
+  font-family: homemadesausage;
+  src: url(HomemadeSausage.ttf);
+}
+@font-face {
+  font-family: mysticgate;
+  src: url(MysticGate.ttf);
+}
+
+
+body{
+  overflow: auto;
+  background-color: pink;
+}
+
+nav{
+  /* float: right; */
+  background-color: ;
+  overflow:auto;
+  font-family: 'Josefin Sans',sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navanchor {
+  font-family: mysticgate;
+  margin: 50px;
+
+}
+h2{
+  font-size: 30px;
+  font-family: mysticgate;
+}
+
+.menuitem {
+  float:right;
+}
+nav a{
+  display:inline-block;
+  background-color: ;
+}
+
+
+a:link {
+  color:white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+a.homenav{
+  color: red;
+  font-size: 1.5em;
+}
+
+h1 {
+  display: block;
+  padding-top: 80px;
+  font-size: 3em;
+}
+
+.profile-pic{
+boder: 5px solid red;
+width:10px;
+height: 10px;
+border-radius: 1000px;
+margin:80px;
+}
+p {
+  display: block;
+  width: 300px;
+  background-color: ;
+  font-family: mysticgate;
+  color: white
+}
+
+.profile-pic {
+  width: 300px;
+  height: auto;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+button {
+  float: right;
+}
+.content {
+  margin-left: 30px;
+}
+
+h1{
+  font-family: homemadesausage;
+}
+
+a.projectsbutton{
+  display:block;
+  background-color: red;
+  width: 150px;
+  padding:20px;
+  text-align: center;
+  border-radius: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+li{
+  color: white;
+font-family: homemadesausage;
+}
